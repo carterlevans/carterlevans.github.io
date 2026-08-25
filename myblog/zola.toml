@@ -1,0 +1,25 @@
+# The URL the site will be built for
+base_url = "https://carterlevans.github.io"
+title = "Ramblings"
+theme = "still"
+description = "Notes, essays, and writing."
+author = "Carter Evans"
+default_language = "en"
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[markdown]
+
+[markdown.highlighting]
+theme = "dracula"
+
+[extra]
+# Put all your custom variables here
+still_date_format = "%Y-%m-%d"
+still_show_author = true
