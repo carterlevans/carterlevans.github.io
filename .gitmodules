@@ -1,0 +1,3 @@
+[submodule "themes/still"]
+	path = themes/still
+	url = https://github.com/wjianbo/zola-theme-still
